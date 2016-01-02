@@ -37,9 +37,9 @@ window.onload = function(){
 		canvas.width = WINDOW_WIDTH;
 		canvas.height = WINDOW_HEIGHT;
 		//endTime截止时间
-		var endTime = new Date(2016,1,9,0,0,0);
-		//var endTime = new Date();
-		//endTime.setTime(endTime.getTime()+ 60 * 60 * 1000);
+		//var endTime = new Date(2016,1,9,0,0,0);
+		var endTime = new Date();
+		endTime.setTime(endTime.getTime()+ 60 * 60 * 1000);
 		//endTime.setTime(endTime.getTime()+ 6* 1000);
 		//remainTime剩余需要倒计时的时间
 		var remainTime = getCurrentShowTime(endTime);
